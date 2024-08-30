@@ -4,7 +4,7 @@ import {envs} from './config/env.js'
 import {startServer} from './server/server.js';
 
 const main = () => {
-  // console.log('Aqui comenzaremos el servidor');
+  console.log('Aqui comenzaremos el servidor');
   // console.log(envs);
   startServer({
     port: envs.PORT,
